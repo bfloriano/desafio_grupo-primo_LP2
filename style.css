@@ -235,6 +235,9 @@ button {
     top: 1400px;
     z-index: -1;
 }
+.mapa-title {
+    padding-top: 96px;
+}
 .mapa {
     height: 485px;
     width: 1200px;
@@ -324,6 +327,9 @@ button {
     font-weight: bold;
     font-size: 24px;
     padding: 30px 0 10px 0;
+}
+.thiago2 {
+    z-index: 1;
 }
 
 /* section4 */
@@ -459,7 +465,7 @@ button {
         top: 2485px;
     }
     .section2 {
-        height: 1284px;;
+        height: 1284px;
     }
     .mapa {
         height: 845px;
@@ -488,6 +494,7 @@ button {
         height: 375px;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
 
     }
     .footer-start {
@@ -495,6 +502,132 @@ button {
         flex-direction: column-reverse;
         justify-content: space-around;
         align-items: center;
+        text-align: center;
     }
+    .thiago1 {
+        width: 90%;
+    }
+}
 
+@media (max-width: 700px) {
+    .text-block1 {
+        width: 80%;
+        font-size: 24px;
+    }
+    .text-1 {
+        font-size: 12px;
+    }
+    .btn2 {
+        height: 60px;
+        width: 492px;
+        font-size: 20px;
+        top: 1000px;
+    }
+    .section1 {
+        height: 2100px;
+    }
+    .ciclos {
+        top: 1057px;  
+    }
+    .mapa-title, .mapa {
+        width: 500px;
+    }
+    .golder {
+        top: 2445px;
+    }
+    .btn3 {
+        height: 70px;
+        width: 492px;
+        font-size: 20px;
+    }
+    .background2 {
+        top: 3900px;
+    }
+    .background3, .background4 {
+        top: 4480px;
+    }
+    .box {
+        width: 500px;
+    }
+    .text-block2 {
+        width: 450px;
+        font-size: 32px;
+    }
+    .instagram {
+        font-size: 24px;
+    }
+    .icone {
+        height: 24px;
+        width: 24px;
+    }
+    .btn4 {
+        width: 450px;
+        height: 94px;
+    }
+}
+
+@media (max-width: 550px) {
+    .btn2 {
+        height: 52px;
+        width: 327px;
+        font-size: 16px;
+        top: 900px;
+    }
+    .section1 {
+        height: 2000px;
+    }
+    .ciclos {
+        top: 950px;  
+    }
+    .mapa-title {
+        width: 300px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .mapa {
+        width: 350px;
+        height: 1500px;
+        font-size: 16px;
+    }
+    .golder {
+        width: 250px;
+        top: 2295px;
+    }
+    .section2 {
+        height: 1584px;
+    }
+    .btn3 {
+        height: 52px;
+        width: 327px;
+        font-size: 16px;
+    }
+    .section3 {
+        height: 1556px;
+    }
+    .textura {
+        height: 1069px;
+        width: 327px;
+    }
+    .thiago2 {
+        width: 375px;
+    }
+    .box {
+        width: 327px;
+    }
+    .text-block2 {
+        width: 230px;
+        font-size: 24px;
+    }
+    .instagram {
+        font-size: 16px;
+    }
+    .icone {
+        height: 16px;
+        width: 16px;
+    }
+    .btn4 {
+        width: 213px;
+        height: 64px;
+        font-size: 16px;
+    }
 }
